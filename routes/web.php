@@ -59,15 +59,6 @@ Route::get('/animation', function () {
     return view('animation');
 })->name('animation');
 
-Route::post('/foundation_pit', [CalcController::class,'FoundationPit']);
-Route::get('/foundation_pit', function () {
-    return view('foundation_pit');
-})->name('foundation_pit');
-
-Route::post('/hydrohammer', [CalcController::class,'Hydrohammer']);
-Route::get('/hydrohammer', function () {
-    return view('hydrohammer');
-})->name('hydrohammer');
 
 Route::get('/price', function () {
     return view('price');

@@ -35,7 +35,7 @@
                                     <option value="1">Больше часа</option>
                                 </select>
 
-                                  <button id="finalbut1" type="button" class="btn btn-lg btn-block btn-primary m-3">Рассчитать</button>
+                                  <button id="finalbut1" type="button" class="btn btn-lg btn-block btn-warning m-3">Рассчитать</button>
                               </div>
                           </div>
                       </div>
