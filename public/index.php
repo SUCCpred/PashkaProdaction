@@ -55,6 +55,5 @@ $response = tap($kernel->handle(
 date_default_timezone_set('Europe/Moscow');
 session(['isAdmin' => 0]);
 session('isAdmin', 0);
-session()->push('session-data', []);
 
 $kernel->terminate($request, $response);

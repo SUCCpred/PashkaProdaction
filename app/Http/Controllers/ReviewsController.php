@@ -34,14 +34,13 @@ class ReviewsController extends Controller
     {
         $valid = $request->validate([
             'reviewtext' => 'required',
-            'username' => 'required',
         ]);
 
         $user = new ReviewModel();
 
         $user->user_email = 'example@mail.com';
         $user->review_text = $request->input('reviewtext');
-        $user->user_name = $request->input('username');
+        $user->user_name = session("username");
         $user->ip = $_SERVER['REMOTE_ADDR'];
         $user->timestamp = date('d.m.Y \в H:i');
 
