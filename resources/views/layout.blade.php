@@ -18,11 +18,11 @@
     <div class="container-fluid d-flex h-100 p-3 mx-auto flex-column">
         <header class="masthead clearfix">
             <div class="container inner">
-                <a href="/main"><h3 class="masthead-brand">Crimean Ground Works</h3></a>
+                <a href="/main"><h3 class="masthead-brand">PashkaProduction</h3></a>
                 <nav>
                   <ul class="nav masthead-nav">
                     <li><a class="nav-link" href="/main">Главная</a></li>
-                    <li><a class="nav-link" href="/choise">Расчет</a></li>
+                    <li><a class="nav-link" href="/choise">Услуги</a></li>
                     <li><a class="nav-link" href="/reviews">Отзывы</a></li>
                     @if(session('isModer') == 1)
                         <a class="nav-link" href="/moderpanel">Панель модератора</a>

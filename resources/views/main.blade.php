@@ -15,13 +15,11 @@
     }
     </style>
 
-    <h2 class="cover-heading" style="margin-top: 15vw">Узнай сколько будут стоить <b>земельные работы</b> на твоём участке!</h2>
-    <p class="lead">Воспользуйся нашим расчётом любого вида земельных работ!</p>
+    <h2 class="cover-heading" style="margin-top: 15vw">Нужны услуги видеографа?<br><b>Жми на кнопку и выбирай.</b></br></h2>
     <p class="lead">
-        <a href="/choise" class="btn btn-lg btn-default">Рассчитать</a>
+        <a href="/choise" class="btn btn-lg btn-default">Услуги</a>
     </p>
     <div id="video-bg">
-      <video src="images/2in1 second anim.webm" width="100%" height="auto" preload="auto" autoplay loop muted>
-      </video>
+      <img src="images/693141.jpg" width="100%" height="auto" preload="auto">
     </div>
 @endsection
