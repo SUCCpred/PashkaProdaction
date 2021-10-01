@@ -20,7 +20,7 @@
                         <h4 class="my-0 font-weight-normal ">Музыкальный клип</h4>
                     </div>
                     <div >
-                        <a href="/pit"><video src="images/music_clip.webm" autoplay muted loop style="width: 250px"></video></a>
+                        <a href="/music_clip"><video src="images/music_clip.webm" autoplay muted loop style="width: 250px"></video></a>
                     </div>
                 </div>
                 <div class="card m-4 box-shadow bg-dark super-borders">
@@ -28,7 +28,7 @@
                         <h4 class="my-0 font-weight-normal ">Интервью</h4>
                     </div>
                     <div >
-                        <a href="/planning"><video src="images/interview.webm" autoplay muted loop style="width: 250px"></video></a>
+                        <a href="/interview"><video src="images/interview.webm" autoplay muted loop style="width: 250px"></video></a>
                     </div>
                 </div>
             </nav>
@@ -40,7 +40,7 @@
                         <h4 class="my-0 font-weight-normal ">Фотосессия</h4>
                     </div>
                     <div >
-                        <a href="/terracing"><video src="images/photosession.webm" autoplay muted loop style="width: 250px"></video></a>
+                        <a href="/photosession"><video src="images/photosession.webm" autoplay muted loop style="width: 250px"></video></a>
                     </div>
                 </div>
                 <div class="card m-4 box-shadow bg-dark super-borders">
@@ -48,7 +48,7 @@
                         <h4 class="my-0 font-weight-normal ">Анимация</h4>
                     </div>
                     <div >
-                        <a href="/hydrohammer"><video src="images/animation.webm" autoplay muted loop style="width: 250px"></video></a>
+                        <a href="/animation"><video src="images/animation.webm" autoplay muted loop style="width: 250px"></video></a>
                     </div>
                 </div>
             </div>

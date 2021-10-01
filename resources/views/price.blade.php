@@ -4,17 +4,6 @@
 
 @section("page-content")
 
-@if($isTerracing == true)
-<div class="container"><div class="alert alert-danger"><h4>Рассчёт террасирования производится ОЧЕНЬ приблизительно, если нужно узнать точную цену, позвоните по номеру телефона</h4></div></div>
-@else
-<p></p>
-@endif
-
-@if(empty($badground))
-<p></p>
-@else
-<div class="container"><div class="alert alert-danger"><h4>Так как вы выбрали {{$badground}}, то придётся воспользоваться услугой гидромолота, стоимость которой состовляет 2500₽/час</h4></div></div>
-@endif
     <h1 class="m-5">Стоимость услуг составляет:</h1>
     <h1 class="m-5">
         @if($price['error'] == 0)

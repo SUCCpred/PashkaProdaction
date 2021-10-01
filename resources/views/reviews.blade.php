@@ -56,7 +56,7 @@
                     </div>
                 </form>
     </div>
-    <!-- @if(session('isUser') != 1)
+     @if(session('isUser') != 1)
         <p class="lead">Чтобы оставить отзыв о сайте или о проделанной работе необходимо <a href="signin">авторизироваться</a></p>
-    @endif -->
+    @endif
 @endsection

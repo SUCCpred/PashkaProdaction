@@ -39,25 +39,25 @@ Route::get('/wedding', function () {
     return view('wedding');
 })->name('wedding');
 
-Route::post('/pit', [CalcController::class,'Pit']);
-Route::get('/pit', function () {
-    return view('pit');
-})->name('pit');
+Route::post('/music_clip', [CalcController::class,'Music_clip']);
+Route::get('/music_clip', function () {
+    return view('music_clip');
+})->name('music_clip');
 
-Route::post('/planning', [CalcController::class,'Planning']);
-Route::get('/planning', function () {
-    return view('planning');
-})->name('planning');
+Route::post('/interview', [CalcController::class,'Interview']);
+Route::get('/interview', function () {
+    return view('interview');
+})->name('interview');
 
-Route::post('/terracing', [CalcController::class,'Terracing']);
-Route::get('/terracing', function () {
-    return view('terracing');
-})->name('terracing');
+Route::post('/photosession', [CalcController::class,'Photosession']);
+Route::get('/photosession', function () {
+    return view('photosession');
+})->name('photosession');
 
-Route::post('/hydrodrill', [CalcController::class,'Hydrodrill']);
-Route::get('/hydrodrill', function () {
-    return view('hydrodrill');
-})->name('hydrodrill');
+Route::post('/animation', [CalcController::class,'Animation']);
+Route::get('/animation', function () {
+    return view('animation');
+})->name('animation');
 
 Route::post('/foundation_pit', [CalcController::class,'FoundationPit']);
 Route::get('/foundation_pit', function () {

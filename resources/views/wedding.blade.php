@@ -50,5 +50,14 @@
                     </div>
                 </div>
         </form>
+        <script>
+        $("#finalbut1").click('keyup mouseup', function () {
+            var input = $("<input>")
+                .attr("type", "hidden")
+                .attr("name", "redirpage").val(0);
+            $('#mainform').append(input);
+            $('form#mainform').submit();
+        });
+        </script>
     </div>
 @endsection
