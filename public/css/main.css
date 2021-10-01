@@ -134,12 +134,12 @@ body {
 }
 
 .super-borders {
-  border-radius: 40px !important;
+  border-radius: 20px !important;
 }
 
 .super-borders-kostil {
-  border-top-left-radius: 40px !important;
-  border-top-right-radius: 40px !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
 }
 
 #video-bg {

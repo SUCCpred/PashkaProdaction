@@ -34,10 +34,10 @@ Route::get('/clean', function () {
 Route::post('/reviews', [ReviewsController::class,'AddReview']);
 Route::get('/reviews', [ReviewsController::class,'Reviews'])->name('reviews');
 
-Route::post('/trench', [CalcController::class,'Trench']);
-Route::get('/trench', function () {
-    return view('trench');
-})->name('trench');
+Route::post('/wedding', [CalcController::class,'Wedding']);
+Route::get('/wedding', function () {
+    return view('wedding');
+})->name('wedding');
 
 Route::post('/pit', [CalcController::class,'Pit']);
 Route::get('/pit', function () {
